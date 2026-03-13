@@ -18,3 +18,8 @@ View your app in AI Studio: https://ai.studio/apps/drive/1UQmhRXCKCfJn_6_amLsp8Y
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Telegram bot deploy
+
+Voor een snelle Telegram bot deploy, zie: `docs/telegram-deploy.md`.
+De bot-service staat in `telegram-bot/` en gebruikt `TELEGRAM_BOT_TOKEN` als environment variable.
